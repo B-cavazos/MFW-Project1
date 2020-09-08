@@ -1,0 +1,33 @@
+body{
+    background-image: ;
+}
+
+.theme-title{
+    text-align: center;
+    font-size: 28pt;
+    letter-spacing: -1pt;
+    padding: 100px 0px 100px 0px;
+}
+
+#main{
+    width: 75%;
+    margin: auto;
+}
+
+.justify-right{
+    text-align: right;
+}
+
+.section-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(11, 139, 172);
+    font-weight: bold;
+    font-size: 18pt;
+    letter-spacing: 4pt;
+    text-transform: uppercase;
+
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+}
