@@ -3,39 +3,38 @@ body{
 }
 
 
-.container{
-    position: relative;
-    top: -500px;
-}
-
-
 .justify-right{
     text-align: right;
+}
+
+.title-container {
+    position: relative;
+    top: -550px;
 }
 
 
 .theme-title{
     text-align: center;
     color: white;
-    font-size: 36pt;
+    font-size: 50pt;
     letter-spacing: -1pt;
-    padding-bottom: 400px;
 }
 
 #main{
     width: 75%;
     margin: auto;
+    margin-bottom: 200px;
+    margin-top: -200px;
 }
 
 
 .section-title{
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(11, 139, 172);
+    color: rgb(5, 89, 110);
     font-weight: bold;
     font-size: 24pt;
     letter-spacing: 4pt;
     text-transform: uppercase;
-
 }
 
 .text{
@@ -43,8 +42,8 @@ body{
 }
 
 #footer{
-    background-color: rgb(7, 46, 65);
-    height: 200px;
+    background-color: rgb(4, 19, 27);
+    height: 150px;
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -53,5 +52,5 @@ body{
 .copyright{
     display: inline-block;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
