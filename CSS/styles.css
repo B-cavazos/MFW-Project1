@@ -54,3 +54,15 @@ body{
     width: 100%;
     padding-top: 50px;
 }
+
+
+/* CSS MEDIA QUERY */
+
+@media (max-width:480px){
+}
+
+@media (max-width:768px){
+}
+
+@media (max-width:1024px){
+}
