@@ -1,7 +1,12 @@
-body{
+*{
     margin: 0px;
+    padding: 0px;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
 .justify-right{
     text-align: right;
@@ -9,7 +14,6 @@ body{
 
 .title-container {
     position: relative;
-    top: -550px;
 }
 
 
@@ -23,8 +27,7 @@ body{
 #main{
     width: 75%;
     margin: auto;
-    margin-bottom: 200px;
-    margin-top: -200px;
+    padding: 100px 0px 200px 0px;
 }
 
 
@@ -58,11 +61,19 @@ body{
 
 /* CSS MEDIA QUERY */
 
-@media (max-width:480px){
+@media (min-width:480px){
+    #header{
+        background-color: palevioletred;
+    }
 }
 
-@media (max-width:768px){
+@media (min-width:768px){
+    #header{
+        background-color: rgb(190, 40, 90);
+    }
 }
 
-@media (max-width:1024px){
-}
+@media (min-width:1024px){
+    #header{
+        background-color: rgb(116, 6, 43);
+    }
